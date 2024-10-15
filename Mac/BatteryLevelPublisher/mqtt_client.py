@@ -45,7 +45,7 @@ class MQTTClient:
       )
       connected_future = self.mqtt_connection.connect()
       connected_future.result()
-      self.logger.info("Connected to the AWS IoT Core")
+      self.logger.info("Connected to the AWS IoT Core.")
     except Exception as e:
       current_function = inspect.currentframe().f_code.co_name
       error_message = self.ERROR_MESSAGE_FORMAT.format(function_name = current_function, message = e, traceback = traceback.format_exc())
