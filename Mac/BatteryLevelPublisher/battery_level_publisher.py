@@ -1,8 +1,6 @@
 import argparse
-import inspect
 import logging
 import sys
-import traceback
 import time
 import re
 from datetime import datetime
@@ -194,4 +192,3 @@ if __name__ == "__main__":
 
   publisher = BatteryLevelPublisher()
   publisher.run()
-
