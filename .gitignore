@@ -1,4 +1,9 @@
 Mac/certs/
 Mac/device_main.py
 
+.vscode/
+__pycache__/
+.coverage
+README.md
+
 .DS_Store
